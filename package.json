@@ -1,0 +1,16 @@
+{
+  "name": "@figma-svg-export/monorepo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@figma-svg-export/core": "workspace:*",
+    "@figma-svg-export/cli": "workspace:*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

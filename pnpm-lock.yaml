@@ -1,0 +1,17 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers:
+      '@figma-svg-export/cli': workspace:*
+      '@figma-svg-export/core': workspace:*
+    devDependencies:
+      '@figma-svg-export/cli': link:packages/figma-svg-export-cli
+      '@figma-svg-export/core': link:packages/figma-svg-export
+
+  packages/figma-svg-export:
+    specifiers: {}
+
+  packages/figma-svg-export-cli:
+    specifiers: {}
